@@ -35,7 +35,6 @@ class DBClient {
     }
   }
 
-
   async nbFiles() {
     if (!this.isAlive()) return 0;
     try {
