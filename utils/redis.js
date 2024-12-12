@@ -1,4 +1,3 @@
-
 import { createClient } from 'redis';
 
 class RedisClient {
@@ -35,7 +34,6 @@ class RedisClient {
       });
     });
   }
-
 
   async del(key) {
     return new Promise((resolve, reject) => {
